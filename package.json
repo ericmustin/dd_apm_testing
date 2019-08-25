@@ -1,0 +1,17 @@
+{
+  "name": "dd_apm_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "spec_output.json",
+  "dependencies": {
+    "jasmine": "^3.4.0",
+    "jasmine-spec-reporter": "^4.2.1",
+    "msgpack-lite": "^0.1.26"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jasmine"
+  },
+  "author": "Eric Mustin",
+  "license": "ISC"
+}
