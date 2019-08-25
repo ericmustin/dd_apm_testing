@@ -1,6 +1,6 @@
 describe("Trace Span Tags", function() {
   // var traces;
-
+  
   beforeEach(function() {
     // traces = trace_details
 
@@ -8,7 +8,7 @@ describe("Trace Span Tags", function() {
     this.traces = this.traces
   });
 
-  it("should generate traces", function() {
+  it("should generate traces", function() {    
     this.traces.forEach( x => console.table(x))
     expect(this.traces.length).toBeTruthy();
   })
