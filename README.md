@@ -32,7 +32,9 @@ example_flask_app $ curl localhost:3000/hello
 
 3. To run the test suite, first kill the tshark packet capture program `[ctrl+c]`, then from the base of your `dd_apm_testing` directory, run:
 
-`jasmine`
+```
+dd_apm_testing $ npm install
+dd_apm_testing $ jasmine
+```
 
 4. view the output of your test suite and a table view of your traces in the console
-
